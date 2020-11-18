@@ -14,6 +14,10 @@ public class Entity {
         private String summary;
         private String description;
 
+        public Todo(Long id) {
+            this.id = id;
+        }
+
         public String getSummary() {
             return summary;
         }
